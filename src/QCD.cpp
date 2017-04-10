@@ -165,8 +165,7 @@ void QCD(double *y, double *x, double *beta0, double *beta1,double *pre_value, i
 			}
 			else 
 			{	
-				// count4=0;
-				count4=(*nxcol)-1;
+				count4=0;
 				count1++;
 				end=count5;
 				//fabs(distance)<=(*thresh) ? distance=0 : distance=distance;

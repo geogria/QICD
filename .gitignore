@@ -152,3 +152,4 @@ metastore_db
 ## pylint report
 pylint-report.txt
 
+.Rproj.user
