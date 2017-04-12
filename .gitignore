@@ -153,3 +153,6 @@ metastore_db
 pylint-report.txt
 
 .Rproj.user
+
+*.o
+*.so
