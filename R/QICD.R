@@ -2,6 +2,7 @@
 #{
 #  library.dynam("LIBNAME", pkg, lib)
 #}
+#' @export
 QICD<-function(y, x, beta=NULL, tau, lambda, a=3.7,funname="scad",intercept=TRUE,thresh=1e-06,
                exclude=NULL,maxin=100,maxout=20)
 #x: input nxp matrix, of dimension nobs x nvars; each row is an observation vector. 
@@ -102,7 +103,7 @@ QICD<-function(y, x, beta=NULL, tau, lambda, a=3.7,funname="scad",intercept=TRUE
   class(obj)="QICD"
   obj
 }
-
+#' @export
 allzero<-function(x)
 # are all x column values are zeros
 {

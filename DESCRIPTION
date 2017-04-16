@@ -32,3 +32,4 @@ Packaged: 2017-04-16 11:40:16 UTC; bopeng
 NeedsCompilation: yes
 Repository: CRAN
 Date/Publication: 2017-04-16 11:40:37
+RoxygenNote: 6.0.1
