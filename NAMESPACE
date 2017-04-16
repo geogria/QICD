@@ -1,4 +1,4 @@
-useDynLib("QICD")
+useDynLib("QICD", .registration = TRUE)
 exportPattern("^[[:alpha:]]+")
 exportPattern(".")
 import(stats)
