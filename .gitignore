@@ -40,6 +40,7 @@ Temporary Items
 # User-specific stuff:
 **/.idea/workspace.xml
 **/.idea/tasks.xml
+
 #.idea/dictionaries
 
 # Sensitive or high-churn files:
@@ -157,3 +158,4 @@ pylint-report.txt
 src/*.o
 src/*.so
 src-i386/*
+
