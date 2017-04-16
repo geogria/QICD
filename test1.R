@@ -1,7 +1,7 @@
 remove.packages("QICD")
 detach("package:QICD", unload=TRUE)
 library(QICD)
-install.packages("F:\\Documents\\New Bo Peng Folder\\Google Drive(umn)\\Github\\QICD_1.1.1.tar.gz",repos=NULL,type="source")
+# install.packages("F:\\Documents\\New Bo Peng Folder\\Google Drive(umn)\\Github\\QICD_1.1.1.tar.gz",repos=NULL,type="source")
 install.packages("/Users/bpeng/Documents/Projects/CCT/git/QICD_1.2.0.tar.gz",repos=NULL,type="source")
 library(QICD)
 
