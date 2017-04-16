@@ -156,3 +156,4 @@ pylint-report.txt
 
 src/*.o
 src/*.so
+src-i386/*
